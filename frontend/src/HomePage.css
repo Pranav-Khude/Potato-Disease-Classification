@@ -1,0 +1,66 @@
+.home-container {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .navbar h1 {
+    color: #2e7d32;
+    margin: 0;
+  }
+  
+  .nav-link {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #45a049;
+  }
+  
+  .content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .content h2 {
+    color: #2e7d32;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .disease-info {
+    margin-bottom: 30px;
+  }
+  
+  .disease-info h3 {
+    color: #1b5e20;
+  }
+  
+  .disease-info h4 {
+    color: #33691e;
+    margin-bottom: 5px;
+  }
+  
+  .disease-info ul {
+    padding-left: 20px;
+  }
+  
+  .disease-info li {
+    margin-bottom: 5px;
+  }
